@@ -1,0 +1,15 @@
+{
+  "name": "network-sketch",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "npm": "^11.9.0",
+    "start": "^5.1.0",
+    "ws": "^8.18.0"
+  }
+}
