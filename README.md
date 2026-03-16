@@ -1,23 +1,21 @@
-# Mood Pet Sanctuary
+# Network Sketch
 
 ## Name, Date, Author
 - Name: Haoming Li
-- Date: 9 January 2026
+- Date: 7 February 2026
 
 ## Instructions
-- Open `index.html` (use a local server like VSCode Live Server if needed)
-- The bottom dock switches modes: `ROOM / FEED / CLEAN / MEMORY / SHOP`
-- **FEED**: choose a food tier, then click on the floor to drop food (coins are spent on higher tiers)
-- **CLEAN**: hold and drag to scrub dirt; click “Bubble Soap” to activate a short cleaning boost (costs coins)
-- **MEMORY**: type one sentence and save it as a star; click stars to view saved notes
-- **SHOP**: buy upgrades/cosmetics, and customise the pet’s species + colour
+- Open the project link in a browser (desktop recommended)
+- Click and drag to draw on the shared canvas in real time
+- `1` Normal mode, `2` Lag mode, `3` Loss mode
+- `C` clears the canvas for everyone, `4` disconnects/reconnects
+- If keys don’t respond, click the canvas once to focus the page
 
 ## About
-Mood Pet Sanctuary is an interactive daily-ritual system built with p5.js.  
-It turns familiar routines—feeding, cleaning, writing one line, and checking time/weather—into a playful pet companion experience, with daily rewards and personal customisation.
+Network Sketch is a real-time collaborative drawing experiment using WebSockets.  
+It explores how unstable connections (lag and packet loss) reshape coordination, visibility, and “presence” in online interaction.
 
 ## Acknowledgements
 - p5.js: https://p5js.org/
-- p5.sound: https://p5js.org/reference/#/libraries/p5.sound
-- Weather data: Open-Meteo (public API)
-- Inspiration: virtual pets, small daily rituals, and turning “self-care” into a gentle game loop
+- WebSockets / Node.js: real-time communication for multi-user interaction
+- Inspiration: networked performance, latency aesthetics, and online social infrastructure
